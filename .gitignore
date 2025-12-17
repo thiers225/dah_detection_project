@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Mac OS
+.DS_Store
+
+# Project specific
+Dataset/
+*.h5
+class_indices.json
