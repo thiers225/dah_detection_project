@@ -13,8 +13,8 @@ st.set_page_config(
 )
 
 # Constantes
-MODEL_PATH = 'notebooks/plant_disease_model.h5'
-CLASS_INDICES_PATH = 'notebooks/class_indices.json'
+MODEL_PATH = 'models/plant_disease_model.keras'
+CLASS_INDICES_PATH = 'models/class_indices.json'
 
 @st.cache_resource
 def load_model():

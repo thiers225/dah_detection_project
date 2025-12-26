@@ -1,0 +1,24 @@
+[project]
+name = "datahubproject"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "thiers225",email = "thierry.ndri225@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.10.19"
+dependencies = [
+    "tensorflow (>=2.20.0,<3.0.0)",
+    "ipykernel (>=7.1.0,<8.0.0)",
+    "numpy (==2.2.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "opencv-python (>=4.12.0.88,<5.0.0.0)",
+    "streamlit (>=1.52.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

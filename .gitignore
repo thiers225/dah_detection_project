@@ -10,8 +10,3 @@ venv/
 
 # Mac OS
 .DS_Store
-
-# Project specific
-Dataset/
-*.h5
-class_indices.json
